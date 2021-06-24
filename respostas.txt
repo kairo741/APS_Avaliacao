@@ -1,0 +1,47 @@
+
+1 - R: Também chamado de ECMAScript 6, ou ECMAScript 2015; o ES6 é somente uma padronização da linguagem JavaScript. 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+2 - R: Essa versão de 2015 trouxe recursos e funcionalidades como novas maneiras de iterar objetos, declaração de variáveis 
+com let e const e modularização de classes.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+3 - R: Em JavaScript, toda variável é “elevada” (hoisting) até o topo do seu contexto de execução. 
+Esse mecanismo move as variáveis para o topo do seu escopo antes da execução do código.
+
+Considerando esse conceito:
+
+var - é uma variavel hoisting que é automaticamente inicializada com o valor undefined (se não estiver atribuido a outro valor).
+
+let - usada para declarar variaveis com escopo de bloco.
+
+const - é uma variavel em que não podemos redefinir o valor após a criação, mas, se for um objeto ou um array é 
+possivel alterar suas propriedades
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+4 - R: destructuring é a quebrar uma estrutura muito complexa em várias partes mais simples.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+5 - R: Document Object Model (DOM) é utilizado para interagir com páginas Web, para atualizar elementos, criar e até mudar texto 
+do HTML pelo JavaScript. Apesar de estar ligado ao JS, não faz parte da linguagem, é como se fosse uma API que é acessada pelo JS.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+6 - R:
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+7 - R: Em um código síncrono, todas as funções e requisições trabalham em sincronia, em um contato direto, do início ao fim da 
+comunicação. Já em um código assíncrono nós podemos realizar várias requisições ao mesmo tempo, e uma requisição não irá afetar 
+a outra.
+
+Async - é um identificador que quando adicionado na criação de uma função define que ela será assíncrona.
+
+Await - é utilizada dentro de funções assíncronas informando que o código só deve continuar após esperar a resolução 
+da função indicada
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+8 - R: Essencialmente, uma promise é um objeto retornado para o qual você adiciona callbacks, em vez de passar callbacks para 
+uma função. A grande vantagem de implementação de promises é que o retorno da declaração é uma variável, o que torna o processo 
+de encadeamento de handlers muito mais simples.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+9 - R: 
