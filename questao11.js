@@ -48,21 +48,20 @@ class Root {
     }
 
     checkNodeRaiz(node) {
-        console.log(node.value + " = Nó raiz")
+        console.log(node.value + " \t= NÓ RAIZ")
         this.checkNodeFolha(node)
     }
 
     checkNodeFolha(node) {
 
         if (node.left == null && node.right == null) {
-            console.log(node.value + " = Nó folha")
+            console.log(node.value + " \t= Nó folha")
         } else {
+            console.log(node.value + " \t= Nó pai")
             if (node.left != null) {
-                console.log(node.value + " = Nó pai esquerda")
                 this.checkNodeFolha(node.left)
             }
             if (node.right != null) {
-                console.log(node.value + " = Nó pai direita")
                 this.checkNodeFolha(node.right)
             }
 
